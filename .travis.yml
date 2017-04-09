@@ -1,0 +1,6 @@
+sudo: false
+language: c
+compiler:
+  - gcc
+  - clang
+script: make CXX="$CXX" && make test

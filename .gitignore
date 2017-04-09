@@ -1,0 +1,7 @@
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.s
+tags
