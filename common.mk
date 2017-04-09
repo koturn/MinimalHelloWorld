@@ -35,7 +35,6 @@ WARNING_CFLAGS := \
     -Winline \
     -Wlogical-op \
     -Wmissing-declarations \
-    -Wno-return-local-addr \
     -Wpointer-arith \
     -Wredundant-decls \
     -Wstrict-aliasing=2 \
@@ -43,7 +42,6 @@ WARNING_CFLAGS := \
     -Wundef \
     -Wunsafe-loop-optimizations \
     -Wunreachable-code \
-    -Wvector-operation-performance \
     -Wwrite-strings \
     -Wc++-compat \
     -Wbad-function-cast \
