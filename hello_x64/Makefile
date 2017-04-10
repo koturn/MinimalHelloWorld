@@ -1,6 +1,6 @@
 include ../common.mk
 
-TARGET := hello_x64.c
+TARGET := hello_x64
 SRCS   := $(addsuffix .c,$(basename $(TARGET)))
 OBJS   := $(SRCS:.c=.o)
 
