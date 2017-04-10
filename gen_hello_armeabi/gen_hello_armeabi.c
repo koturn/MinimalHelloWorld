@@ -43,6 +43,7 @@ main(void)
   }
 
   /* ELF header */
+  memset(ehdr.e_ident, 0, sizeof(ehdr.e_ident));
   ehdr.e_ident[EI_MAG0] = ELFMAG0;
   ehdr.e_ident[EI_MAG1] = ELFMAG1;
   ehdr.e_ident[EI_MAG2] = ELFMAG2;
